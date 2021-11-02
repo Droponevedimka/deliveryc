@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta property="og:url" content="<?= curPageURL(); ?>">
+    <meta property="og:title" id="title"             content="<?= $title?>" />
+    <meta property="og:description"  id="decsr"      content="ЕДА ГОДА" />
+    
+    <meta property="og:image" content="img/share-image.png" data-meta-dynamic="true">
+    <meta itemprop="image" content="img/share-image.png" />
+    
+     
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+  
+  <title>ЕДА ГОДА</title>
+  
+  <meta name="title" content="Delivery Club" />
+  <meta name="subtitle" content="ЕДА ГОДА" />
+  <meta property="og:site_name" content="Delivery Club"  data-meta-dynamic="true" />
+  <meta property="og:locale" content="ru_RU" data-meta-dynamic="true" />
+  <meta name="description" content="Мы подвели итоги 2019 года! Узнайте свою статистику и получите промокод на скидку 10%.">
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  
+</head>
+<body>
+
+    <div id="app">
+
+    </div>
+
+</body>
+
+<script>       
+    var favicon_images = [
+            'favicons/favicon1.png',
+            'favicons/favicon2.png'
+        ],
+        image_counter = 0; // To keep track of the current image
+  
+    setInterval(function () {
+        var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+        link.type = 'image/x-icon';
+        link.rel = 'shortcut icon';
+        link.href = favicon_images[image_counter];
+        document.getElementsByTagName('head')[0].appendChild(link);
+
+        // If last image then goto first image
+        // Else go to next image
+        if (image_counter == favicon_images.length - 1)
+            image_counter = 0;
+        else
+            image_counter++;
+    }, 1000);
+
+    </script>
+
+</html>

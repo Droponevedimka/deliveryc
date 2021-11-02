@@ -1,0 +1,289 @@
+
+.final-1{background: linear-gradient(180deg, #EAD2F5 33.33%, #C994FF 100%);} .final-2{background: linear-gradient(180deg, #FFEBC4 0%, #FFCE6D 100%) ;} .final-3{background:  linear-gradient(180deg, #C4EAFF 0%, #86D4FF 100%);} .final-4{background: linear-gradient(180deg, #FFB0B0 41.15%, #FF8FB2 100%);} .final-5{background: linear-gradient(180deg, #FFD644 17.19%, #FFC42E 74.48%);}
+
+.wrapper-final{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.final-main{
+    position: relative;
+    width: 100%;
+    padding: 2% 5%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    color: #410F22;
+    @media screen and (max-width: $tableWidth) {  
+        flex-direction: column;  
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: $tableWidth) {  
+        width: 90%;  
+        margin-left: 5%;
+        text-align: center;       
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-logo{
+    display: block;
+    width: 30%;
+    margin-bottom: 10%;
+    @media screen and (max-width: $tableWidth) {  
+        margin-bottom: 2%;  
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-img{
+    width: 70%;
+    margin: 2% auto;
+    @media screen and (max-width: $tableWidth) {  
+        width: 50%;  
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-title{
+    font-family: Rubik-Regular;    
+    font-size: 1em;
+    margin:1% 0;
+    @media screen and (max-width: $tableWidth) { 
+        font-size: 4vw;   
+        display: none;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-title-mob{
+    font-family: Rubik-Bold;    
+    font-size: 6vw;
+    margin:1% 0;
+    display: none;
+    @media screen and (max-width: $tableWidth) { 
+        display: block;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-items-left{
+    font-family: Rubik-Bold;
+    font-size: 1.1em;
+    @media screen and (max-width: $tableWidth) { 
+        font-size: 5vw;  
+        display: none; 
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-title-left-mob{
+    font-family: Rubik-Bold;
+    font-size: 4vw;
+    display: none;
+    @media screen and (max-width: $tableWidth) { 
+        display: block;
+    }
+    @media screen and (max-width: $phoneWidth ) {   
+       
+    }
+}
+
+.final-main-items{
+    font-family: Rubik-Bold;
+    font-size: 1.2em;
+    padding-bottom:2%;
+    @media screen and (max-width: $tableWidth) {  
+        font-size: 5vw;  
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-right{
+    width: 47%;
+    margin-left: 5%;
+    @media screen and (max-width: $tableWidth) {    
+        width: 90%;
+        margin-left: 5%;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-right-zakaz{
+    font-size: 1.6em;
+    margin-bottom: 10%;
+    @media screen and (max-width: $desktopTraWidth ){
+        margin-bottom: 5%;
+
+    }
+    @media screen and (max-width: $tableWidth) {    
+        font-size: 7vw;
+        text-align: center;
+        margin: 5% 0;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-right-name{
+    font-size: 3em;
+    line-height: 1em;
+    margin: 5% 0;
+    @media screen and (max-width: $desktopTraWidth ){
+        font-size: 2.5em;
+        
+    }
+    @media screen and (max-width: $tableWidth) {    
+        text-align: center;
+        font-size: 12vw;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-main-right-desc{
+    margin: 5% 0;
+    font-size: 0.8em;
+    @media screen and (max-width: $tableWidth) {   
+        margin: 5% 0;
+        font-size: 3vw; 
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-bot{
+    width: 100%;
+    padding: 2% 5%;
+    max-width: 1280px;
+    background: #0EC645;
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: $tableWidth) {   
+        flex-direction: column;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-bot-left{
+    width: 20%;
+    @media screen and (max-width: $tableWidth) {   
+        width: 100%;
+        margin-top: 5%;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-soc-link{
+
+}
+
+.final-soc{
+    width: 25%;
+    margin-right: 5%;
+    @media screen and (max-width: $tableWidth) {   
+        width: 25%;
+        margin-right: 5%;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-bot-right{   
+    width: 80%;
+    @media screen and (max-width: $tableWidth) {    
+        order: -1;
+        width: 100%;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.final-bot-right-text{
+    font-size: 1em;
+    line-height: 1.1em;
+    font-family: Rubik-Regular;
+    @media screen and (max-width: $tableWidth) {   
+        font-size: 3.5vw;
+    }
+    @media screen and (max-width: $phoneWidth ) {    
+    }
+}
+
+.promo-block{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: $tableWidth) {   
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    @media screen and (max-width: $phoneWidth ) {  
+       
+    }
+}
+
+.promo-text{
+    font-family: Rubik-Medium;
+    font-size: 2.2em;
+    @media screen and (max-width: $desktopWidth) {    
+    }
+    @media screen and (max-width: $desktopTraWidth ) { 
+      font-size: 1.8em;
+    }
+    @media screen and (max-width: $tableWidth) {   
+        font-size: 6vw;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    @media screen and (max-width: $phoneWidth ) {  
+        padding: 10px 0px;  
+    }
+}
+
+.promo-code{
+    margin-left: 5%;
+    font-size: 2.5em;
+    padding: 0 30px;
+    background: #fff;
+    border-radius: 10px;
+    color: #410F22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: $desktopWidth) {    
+    }
+    @media screen and (max-width: $desktopTraWidth ) { 
+       font-size: 2em;
+    }
+    @media screen and (max-width: $tableWidth) {   
+        font-size: 9vw;
+        margin:0;
+    }
+    @media screen and (max-width: $phoneWidth ) { 
+        font-size: 8vw;
+        padding: 10px 30px;   
+    }
+    
+}
